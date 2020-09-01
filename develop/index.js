@@ -5,12 +5,12 @@ const fs = require("fs");
 const questions = [
    {
       name: "title",
-      prompt: "what is the title of your project?",
+      prompt: "what is the title of the project?",
       type: "input"
    },
    {
       name: "discription",
-      prompt: "Describe your project",
+      prompt: "Describe the project",
       type: "input"
    },
    {
@@ -19,8 +19,13 @@ const questions = [
       type: "input"
    },
    {
-      name: "usage",
-      prompt: "What are the steps for using your app?",
+      name: "use",
+      prompt: "What are the steps for using the app?",
+      type: "input"
+   },
+   {
+      name: "test",
+      prompt: "What are the steps for testing the app?",
       type: "input"
    },
    {
@@ -36,11 +41,6 @@ const questions = [
    {
       name: "email",
       prompt: "What email is associated with this project?",
-      type: "input"
-   },
-   {
-      name: "username",
-      prompt: "Enter your github username",
       type: "input"
    },
    {
@@ -63,8 +63,26 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {
-}
+fs.writeFile("./readme.md",answers, ()=>{
+   return `
+   ${answers.title}
+
+   Table of Contents
+
+   ${answers.description}
+   
+   ${answers.installation}
+
+   ${answers.use}
+
+   ${answers.test}
+
+   ${answers.contributors}
+
+   ${answers.username}${answers.email}
+
+   ${answers.license}
+   `});
 
 // function to initialize program
 function init() {
