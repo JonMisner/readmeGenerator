@@ -12,11 +12,11 @@ function generateMarkdown(data) {
 
   ## Table of Contents
 
-  * [Discription](#description)
+  * [Description](#description)
   * [Installation](#installation)
   * [Usage](#use)
   * [Contributors](#contributors)
-  * [Contact Information](#contact information)
+  * [Contact Information](#email)
   * [License](#license)
 ***
 
