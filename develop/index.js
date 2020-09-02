@@ -39,7 +39,7 @@ function prompt(){
       type: "input"
    },
    {
-      name: "username",
+      name: "GitUsername",
       prompt: "Enter your github username",
       type: "input"
    },
@@ -54,7 +54,7 @@ function prompt(){
       type: "input"
    },
    {
-      name: "liscense",
+      name: "license",
       prompt: "did you use any of these licenses?",
       type: "list",
       choices: [

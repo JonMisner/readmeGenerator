@@ -1,46 +1,47 @@
 
-  # Test  https://img.shields.io/badge/license-undefined-blue
+  # tester  
+  https://img.shields.io/badge/license-Apache 2.0-blue
 ***
  
-  ## Discription
+  ## Description
 
     undefined
 ***
 
   ## Table of Contents
 
-     - [Discription](#description)
-     - [Installation](#installation)
-     - [Usage](#use)
-     - [Contributors](#contributors)
-     - [Contact Information](#contact information)
-     - [License](#license)
+  * [Discription](#description)
+  * [Installation](#installation)
+  * [Usage](#use)
+  * [Contributors](#contributors)
+  * [Contact Information](#contact information)
+  * [License](#license)
 ***
 
   ## Installation
 
     To install necessary dependencies, run the following command:
   
-     npm install
+     npm i
 ***
   ## Usage
 
-     answer the prompts and let the app do the work
+     answer the questions
 ***
   ## Contributors
 
-     jon, jon, oh and jon
+     jon
 ***
   ## Tests
 
   To run tests, run the following command:
   
-     npm run test
+     npm test run
   
-*** 
+***
   ## Contact Information
 
-     jmistest@test.com
+     jon or jon@test.com
 ***
-    ### License: undefined
-***
+    ### License: Apache 2.0
+***  
