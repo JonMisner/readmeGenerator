@@ -58,9 +58,9 @@ function prompt(){
       prompt: "did you use any of these licenses?",
       type: "list",
       choices: [
-         "Apache 2.0",
+         "Apache",
          "ISC",
-         "GPL 3.0",
+         "GPL",
          "MIT",
          "None"
       ]

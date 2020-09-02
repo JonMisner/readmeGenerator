@@ -1,6 +1,6 @@
 
-  # tester  
-  https://img.shields.io/badge/license-Apache 2.0-blue
+  # Test Project  
+  ![github license](https://img.shields.io/badge/license-Apache-blue)
 ***
  
   ## Description
@@ -22,11 +22,11 @@
 
     To install necessary dependencies, run the following command:
   
-     npm i
+     npm install
 ***
   ## Usage
 
-     answer the questions
+     anser the questions
 ***
   ## Contributors
 
@@ -36,12 +36,12 @@
 
   To run tests, run the following command:
   
-     npm test run
+     npm run test
   
 ***
   ## Contact Information
 
-     jon or jon@test.com
+     testGit or jon@test.com
 ***
-    ### License: Apache 2.0
+    ### License: Apache
 ***  
