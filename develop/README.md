@@ -1,11 +1,11 @@
 
-  # test  
-  ![github license](https://img.shields.io/badge/license-Apache-blue)
+  # test App  
+  ![github license](https://img.shields.io/badge/license-GPL-blue)
 ***
  
   ## Description
 
-    is there a descripton?
+    an app to test my app
 ***
 
   ## Table of Contents
@@ -22,11 +22,11 @@
 
     To install necessary dependencies, run the following command:
   
-     install
+     npm install
 ***
   ## Usage
 
-     use it!
+     ansewr the questions
 ***
   ## Contributors
 
@@ -36,12 +36,12 @@
 
   To run tests, run the following command:
   
-     test. test
+     npm run test
   
 ***
   ## Contact Information
 
-     jontest or jon@test.edu
+     jonGit or jon@test.com
 ***
-    ### License: Apache
+    ### License: GPL
 ***  
