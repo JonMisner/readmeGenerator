@@ -1,11 +1,11 @@
 
-  # Test Project  
+  # test  
   ![github license](https://img.shields.io/badge/license-Apache-blue)
 ***
  
   ## Description
 
-    undefined
+    is there a descripton?
 ***
 
   ## Table of Contents
@@ -22,11 +22,11 @@
 
     To install necessary dependencies, run the following command:
   
-     npm install
+     install
 ***
   ## Usage
 
-     anser the questions
+     use it!
 ***
   ## Contributors
 
@@ -36,12 +36,12 @@
 
   To run tests, run the following command:
   
-     npm run test
+     test. test
   
 ***
   ## Contact Information
 
-     testGit or jon@test.com
+     jontest or jon@test.edu
 ***
     ### License: Apache
 ***  

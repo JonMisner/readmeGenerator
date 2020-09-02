@@ -14,7 +14,7 @@ function prompt(){
       type: "input"
    },
    {
-      name: "discription",
+      name: "description",
       prompt: "Describe the project",
       type: "input"
    },
