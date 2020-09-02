@@ -1,46 +1,46 @@
 
-  # s  https://img.shields.io/badge/license-undefined-blue
-  =======
+  # Test  https://img.shields.io/badge/license-undefined-blue
+***
  
   ## Discription
 
     undefined
-  ----------
+***
 
   ## Table of Contents
 
-     - [Discription](#discription)
+     - [Discription](#description)
      - [Installation](#installation)
-     - [Usage](#usage)
+     - [Usage](#use)
      - [Contributors](#contributors)
      - [Contact Information](#contact information)
      - [License](#license)
-  ----------
+***
 
   ## Installation
 
     To install necessary dependencies, run the following command:
   
-     d
-  ------------
+     npm install
+***
   ## Usage
 
-     s
-  ---------
+     answer the prompts and let the app do the work
+***
   ## Contributors
 
-     undefined
-  ----------
+     jon, jon, oh and jon
+***
   ## Tests
 
   To run tests, run the following command:
   
-     undefined
+     npm run test
   
-  --------------  
+*** 
   ## Contact Information
 
-     undefinedundefined
-  ---------
+     jmistest@test.com
+***
     ### License: undefined
-  ---------  
+***
