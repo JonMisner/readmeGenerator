@@ -1,20 +1,20 @@
 
-  # test App  
+  # Test app  
   ![github license](https://img.shields.io/badge/license-GPL-blue)
 ***
  
   ## Description
 
-    an app to test my app
+     a test app for my app!
 ***
 
   ## Table of Contents
 
-  * [Discription](#description)
+  * [Description](#description)
   * [Installation](#installation)
   * [Usage](#use)
   * [Contributors](#contributors)
-  * [Contact Information](#contact information)
+  * [Contact Information](#email)
   * [License](#license)
 ***
 
@@ -26,7 +26,7 @@
 ***
   ## Usage
 
-     ansewr the questions
+     for whatever you want
 ***
   ## Contributors
 
@@ -41,7 +41,7 @@
 ***
   ## Contact Information
 
-     jonGit or jon@test.com
+     jonGit or jon@gmail.com
 ***
     ### License: GPL
 ***  
