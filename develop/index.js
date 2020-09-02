@@ -1,5 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 // array of questions for user
 const questions = [
@@ -63,31 +64,16 @@ const questions = [
 ];
 
 // function to write README file
-fs.writeFile("./readme.md",answers, ()=>{
-   return `
-   ${answers.title}
-
-   Table of Contents
-
-   ${answers.description}
-   
-   ${answers.installation}
-
-   ${answers.use}
-
-   ${answers.test}
-
-   ${answers.contributors}
-
-   ${answers.username}${answers.email}
-
-   ${answers.license}
-   `});
+function writeToFile(fileName, data){ 
+   return fs.writeFileSync(fileName, data);
+}
 
 // function to initialize program
 function init() {
-
+//inquire prompt, then grab answers from the promise and use your write file function 
+const data = inquirer
+   .prompt(questions.forEach(question.prompt))
+   .then (generateMarkdown());
 }
-
 // function call to initialize program
 init();
