@@ -84,7 +84,6 @@ async function init() {
  
      await writeFileSync("README.md", readme);
  
-     console.log("Successfully wrote to test.md");
    } catch (err) {
      console.log(err);
    }
