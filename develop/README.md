@@ -1,11 +1,11 @@
 
-  # undefined  
-  ![github license](https://img.shields.io/badge/license-Apache-blue)
+  # Team Profile Generator  
+  ![github license](https://img.shields.io/badge/license-None-blue)
 ***
  
   ## Description
 
-    f
+    Dynamically generate a quick profile for members of a development team.
 ***
 
   ## Table of Contents
@@ -22,26 +22,26 @@
 
     To install necessary dependencies, run the following command:
   
-     d
+     Run "npm install" to get required node modules.
 ***
   ## Usage
 
-     d
+     Enter "app.js" in the command line
 ***
   ## Contributors
 
-     d
+     Created by Jon Misner
 ***
   ## Tests
 
   To run tests, run the following command:
   
-     d
+     Enter "npm test" to run tests
   
 ***
   ## Contact Information
 
-     d or d
+     jonmisner or jonmisner86@gmail.com
 ***
-    ### License: Apache
+    ### License: None
 ***  

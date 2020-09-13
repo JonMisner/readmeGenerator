@@ -10,52 +10,52 @@ function prompt(){
    return inquirer.prompt([
    {
       name: "title",
-      prompt: "what is the title of the project?",
+      message: "what is the title of the project?",
       type: "input"
    },
    {
       name: "description",
-      prompt: "Describe the project",
+      message: "Describe the project",
       type: "input"
    },
    {
       name: "installation",
-      prompt: "what are the steps for installation?",
+      message: "what are the steps for installation?",
       type: "input"
    },
    {
       name: "use",
-      prompt: "What are the steps for using the app?",
+      message: "What are the steps for using the app?",
       type: "input"
    },
    {
       name: "test",
-      prompt: "What are the steps for testing the app?",
+      message: "What are the steps for testing the app?",
       type: "input"
    },
    {
       name: "contributors",
-      prompt: "Enter the names of everyone who contributed on this project",
+      message: "Enter the names of everyone who contributed on this project",
       type: "input"
    },
    {
       name: "GitUsername",
-      prompt: "Enter your github username",
+      message: "Enter your github username",
       type: "input"
    },
    {
       name: "email",
-      prompt: "What email is associated with this project?",
+      message: "What email is associated with this project?",
       type: "input"
    },
    {
       name: "url",
-      prompt: "What is the URL for your app",
+      message: "What is the URL for your app",
       type: "input"
    },
    {
       name: "license",
-      prompt: "did you use any of these licenses?",
+      message: "did you use any of these licenses?",
       type: "list",
       choices: [
          "Apache",
